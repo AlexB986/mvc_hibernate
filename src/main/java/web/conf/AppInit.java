@@ -1,11 +1,9 @@
 package web.conf;
 
-import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.sql.DataSource;
 
-@Configuration
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 
